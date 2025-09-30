@@ -30,8 +30,9 @@ url: https://whisperella-night.github.io/Via-Colori-Layout # the base hostname &
 github_username:  whisperella-night
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/architect@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
